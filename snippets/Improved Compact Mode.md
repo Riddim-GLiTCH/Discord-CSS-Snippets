@@ -4,7 +4,7 @@ Improves the appearance of Compact mode, To make it look more like a proper chat
 ## Installation
 To install this snippet, simply copy the line bellow into your custom css file:
 ```css
-@import url(https://Riddim-GLiTCH.github.io/Discord-CSS-Snippets/CSS/ImprovedCompactMode.css);
+@import url(https://riddim-glitch.github.io/Discord-CSS-Snippets/snippets/CSS/ImprovedCompactMode.css);
 ```
 Then change the following Settings:
 >Appearance
