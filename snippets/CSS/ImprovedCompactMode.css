@@ -1,0 +1,31 @@
+.username_d30d99::after{
+ color: var(--text-normal)!important;
+ content: ":";
+ font-size: larger;
+}
+
+/* Remove the stuff for a cleaner look. */
+.timestamp_cdbd93, .replyBadge__3d01e{
+  display: none;
+}
+/* Move message elements to the left for an even more clean look. */
+.avatar__08316.compact__54ecc {
+  margin-left: calc(0.1em + 65px);
+}
+.message__80c10 {
+  margin-left: calc(0.1em + -65px);
+}
+/* Fix replies. (now actually fixes them)*/
+.repliedMessage_e2bf4a:before {
+  right: calc(100% - var(--custom-message-reply-indent));
+  margin-left: calc(18px);
+}
+.repliedMessage_e2bf4a{
+    margin-left: 20px!important;
+}
+
+
+
+.botTag__11e95, .newMemberBadge__17bc0, [class*="roleIcon"] {
+   display: none;
+}
