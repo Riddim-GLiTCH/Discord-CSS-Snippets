@@ -1,0 +1,30 @@
+/* Prettier Search bar */
+.iconContainer__8fa9c, .icon_f50f05 { /* Make the Search icon match the styling of the other icons.*/
+    width: 21px;
+    height: 21px;
+    color: var(--interactive-normal);
+    transition: ease-in-out .3s;
+  }
+  
+  .searchBar_e0c60b { /*Fully Hide the search bar*/
+    width: 21px;
+    height: 24px;
+    padding: 0;
+    background: none;
+    transition: ease-in-out 0.3s!important;
+  }
+  
+  .searchBar_e0c60b:hover .iconContainer__8fa9c,
+  .searchBar_e0c60b:hover .icon_f50f05,
+  .focused_ddee54 .icon_f50f05,
+  .focused_ddee54 .iconContainer__8fa9c { /*Hide Search Icon on hover*/
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .searchBar_e0c60b:hover,
+  .focused_ddee54 .searchBar_e0c60b, .open_d3ab4e .searchBar_e0c60b  { /*Reveal Search Bar on Hover*/
+    width: 175px;
+    background: var(--background-tertiary);
+    border: 1px solid var(--button-outline-primary-border-hover);
+  }
