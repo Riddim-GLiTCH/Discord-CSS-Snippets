@@ -146,7 +146,11 @@ To install this snippet, simply copy the line bellow into your custom css file:
   .sidebar_ded4b5:hover{
     width: 250px!important;
   }
+
+/* Settings Icon Hotfix!!!*/
+.sidebar_ded4b5:not(:hover) .container_ca50b9 .flex_f5fbb7 {display: none}
 ```
+
 </details>
 
 ## Preview
@@ -167,5 +171,10 @@ To install this snippet, simply copy the line bellow into your custom css file:
 
 - Updated snippet to account for previously missed inconsistencies and fixed a lot of issues. This snippet increased in size drastically from this (57 > 137 lines of CSS!)
 - Snippet will now only be available through Github, as it exceeds the text limit for Discord Messages, Even with Nitro.
+
+## 1.1.1 Hotfix
+
+- Fixed an issue where the user area buttons would appear over the avatar by removing the buttons until sidebar is hovered.
+
 
 </details>
