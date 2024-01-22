@@ -135,3 +135,7 @@
   .sidebar_ded4b5:hover{
     width: 250px!important;
   }
+
+
+/*Settings Icon Hotfix!!*/
+.sidebar_ded4b5:not(:hover) .container_ca50b9 .flex_f5fbb7 {display: none}
