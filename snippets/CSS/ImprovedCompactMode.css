@@ -1,31 +1,36 @@
-.username_d30d99::after{
- color: var(--text-normal)!important;
- content: ":";
- font-size: larger;
-}
-
-/* Remove the stuff for a cleaner look. */
-.timestamp_cdbd93, .replyBadge__3d01e{
+/* Add a colon behind the username */
+[class*="compact_"] [class^="headerText_"] [class^="separator_"] {
+    color: var(--text-primary);
+    position: unset;
+    opacity: unset;
+    display: initial;
+    font-size: larger;
+    margin-left: .5px;
+  }
+/* Remove the reply icon for a cleaner look. */
+[class*="compact_"] [class^=replyBadge_] {
   display: none;
 }
-/* Move message elements to the left for an even more clean look. */
-.avatar__08316.compact__54ecc {
-  margin-left: calc(0.1em + 65px);
-}
-.message__80c10 {
-  margin-left: calc(0.1em + -65px);
-}
-/* Fix replies. (now actually fixes them)*/
-.repliedMessage_e2bf4a:before {
-  right: calc(100% - var(--custom-message-reply-indent));
-  margin-left: calc(18px);
-}
-.repliedMessage_e2bf4a{
-    margin-left: 20px!important;
-}
 
+/* Fix replies. (now actually fixes them) */
+[class*="compact_"] [class^="repliedMessage_"] [class^="username_"]:after{
+  color: var(--text-normal)!important;
+  content: ":";
+  font-size: larger;
+ }
 
-
-.botTag__11e95, .newMemberBadge__17bc0, [class*="roleIcon"] {
-   display: none;
+/* Move the New Member icon and the Role Badge to before the username (untested if both are present. Will Likely break!) */
+[class*="compact_"] [class^="headerText_"]:has([class^=roleIcon_], [class^=newMemberBadge_]) {
+	margin-left: 23px;
+} 
+  
+[class*="compact_"] [class^="headerText_"] [class^=roleIcon_], [class^="headerText_"] [class^=newMemberBadge_] {
+    position: absolute;
+    left: 87.5px;
+  }
+/* Move the Silent Message icon to before the timestamp. (untested with anything other than 12h AM/PM standard past noon.) */
+body:has([class^=messagesWrapper_] [class*="compact_"]) [class^=message_] [class^=badge_]:has(svg path[d^="M19 11.5a.5.5 0 0 0-.5-.5h-2.33a2.5 2.5 0 0 1-2.5-2.5v-1a3"]) {
+  position: absolute;
+  left: 7px;
+  top: 4.5px;
 }
