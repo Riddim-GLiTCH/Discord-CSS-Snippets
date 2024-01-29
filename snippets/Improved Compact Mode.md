@@ -77,7 +77,7 @@ Then change the following Settings:
 
 - Added compact mode detection; changes should now only apply when Compact mode is enabled. Nothing will happen in Cozy mode
 - Removed the hiding of the timestamps as it broke the edited message notice. Timestamps are also a requirement now for the silent message icon to appear correctly.
-- Moved new member badge and role icons to before the username. Eastatically more pleasing. (Note, Untested if both are present. I expect the icons to just overlap. However, due to the rarity of this event, I will NOT be adding checks for this. Too much hassle for a problem that is unlikely to ever occur.)
-- Moved Silent Message icon from after the seperator to before the timestamp. "name:🔔 message" doesnt make a lot of sense, and putting it there instead made the most amount of sense to me.
+- Moved new member badge and role icons to before the username. Astatically more pleasing. (Note, Untested if both are present. I expect the icons to just overlap. However, due to the rarity of this event, I will NOT be adding checks for this. Too much hassle for a problem that is unlikely to ever occur.)
+- Moved Silent Message icon from after the separator to before the timestamp. "name::bell: message" doesn't make a lot of sense, and putting it there instead made the most amount of sense to me.
 
 </details>
