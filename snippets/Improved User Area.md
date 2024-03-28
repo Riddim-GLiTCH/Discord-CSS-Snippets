@@ -8,33 +8,43 @@ Also hides the mute and deafen buttons until you hover over the settings button.
 <summary>CSS</summary>
 
 ```css
-.container_ca50b9 .hovered__243e5, .hoverRoll__041cb.forceHover__71322:not(.disabled__89e5c) .default_cae228{
+/* --Improved User Area-- */
+/* Make both the username and status message visible at all times. */
+.container_debb33 .hovered__5a165, .hoverRoll__3ea9e.forceHover__733de:not(.disabled__6cbf4) .default__74311{
   opacity: 1!important;
   transform: none;
 }
-.container_ca50b9 .hovered__243e5::before{
+/* Adds an @ to the username. Discord, for the love of god, just add this yourself already. */
+.container_debb33 .hovered__5a165::before{
   content: "@";
 }
-.default_cae228{
+/* Move the custom Status message down so that it doesnt overlap with the Username */
+.default__74311{
   margin-top: 15px;
 }
-.panels__58331 > .container_ca50b9 .flex_f5fbb7 > :not(:last-child) {
+/* Credit to @thecommieaxolotl for this code. */
+/* --Hides User Buttons until Hover-- */
+/* Hide mute and deafen buttons */
+.panels__58331 > .container_debb33 .flex_f18b02 > :not(:last-child) {
   opacity: 0% !important;
   width: 0px;
   transition: all 0.3s ease-in-out;
 }
-.panels__58331 > .container_ca50b9 .flex_f5fbb7:hover > :not(:last-child) {
+/* Reveal mute and Deafen buttons when settings button is hovered */
+.panels__58331 > .container_debb33 .flex_f18b02:hover > :not(:last-child) {
   opacity: 100% !important;
   width: 32px;
 }
-.avatarWrapper_ba5175{
+/* Resize and move the profile button to take up all the space it can to look clean. */
+.avatarWrapper__500a6{
   transition: all 0.3s ease-in-out;
   width: 100%!important;
   margin-left: -10px;
   height: 53px;
   border-radius: 0!important;
 }
-.avatarWrapper_ba5175 .avatar_f8541f{
+/* Move the avatar back to the right a bit to look clean. */
+.avatarWrapper__500a6 .avatar_f8541f{
   margin-left: 10px;
 }
 ```
@@ -54,5 +64,9 @@ Also hides the mute and deafen buttons until you hover over the settings button.
 ## 1.0.0
 
 - Initial release
+
+## 1.0.1
+
+- Class revision
 
 </details>
