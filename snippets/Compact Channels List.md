@@ -10,145 +10,146 @@ To install this snippet, simply copy the line bellow into your custom css file:
 
 ```css
 /*Small channel list*/
-.sidebar_ded4b5 {
-    transition: 0.3s ease-in-out;
-    width: 55px;
-  }
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6){
-    width: 65px;
-  }
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .privateChannelsHeaderContainer_ddcec6{
-    opacity: 0;
-    margin-top: -40px;
-  }
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6):not(:hover) .favoriteIcon_b001ac{
-    display: none;
-  }
-  .sidebar_ded4b5 .activityPanel__22355 .actions__9256d{
-    opacity: 0;
-  }
-  .sidebar_ded4b5 .activityPanel__22355 .gameIcon__90c32,
-  .sidebar_ded4b5 .container_ca50b9 .avatar_f8541f{
-    scale: 1.3;
-    margin-left: 3px;
-  }
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .activityPanel__22355 .gameIcon__90c32,
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .container_ca50b9 .avatar_f8541f{
-    scale: 1.3;
-    margin-left: 8px;
-  }
-  .sidebar_ded4b5 *{
-    transition: ease-in-out 0.3s;
-  }
-  .sidebar_ded4b5 .scroller_f0f183{
-    transition: 0.3s ease-in-out;
-    margin-top: -100px;
-  }
-  .sidebar_ded4b5 .containerDefault__23a29 {
-    transition: 0.3s ease-in-out;
-    opacity: 0;
-    margin-top: -40px;
-  }
-  .sidebar_ded4b5 .container__4f639{
-    transition: 0.3s ease-in-out;
-    height: 0;
-    opacity: 0;
-    margin-top: -25px;
-  }
-  .sidebar_ded4b5 .animatedContainer__341f6 {
-    transition: 0.3s ease-in-out;
-    opacity: 0!important;
-  }
-  .sidebar_ded4b5:not(:hover) .headerContent_ee8727 {
-    margin-left: 5px
-  }
-  .sidebar_ded4b5:not(:hover) .header__104ca .headerChildren__7cd0b{
-    display: none;
-  } 
-  .sidebar_ded4b5:not(:hover) .dots_a97068 {
-    display: none;
-  }
-  .sidebar_ded4b5:not(:hover) .containerDefault__3187b .iconContainer__3f9b0 {
-    margin-left: 0px
-  }
-  .sidebar_ded4b5:not(:hover) .containerDefault__3187b {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  .sidebar_ded4b5:not(:hover) .header__104ca{
-    background-color: var(--background-secondary);
-    border-bottom: 1px solid var(--background-tertiary);
-  }
-  .sidebar_ded4b5:not(:hover) .name__8d1ec, .sidebar_ded4b5:not(:hover) .nameTag__0e320 {
-    opacity: 0;
-  }
-  .sidebar_ded4b5 .voiceUser__0470a {
-    margin-left: -30px;
-  }
-  .sidebar_ded4b5 .containerDefault__3187b:has(.statusDiv_a4cf67) .linkBottom_bac113{
-    opacity: 0;
-    margin-top: -15px;
-  }
-  .sidebar_ded4b5:not(:hover) .container_d667ff .actionButtons_b58cbb, .sidebar_ded4b5:not(:hover) .container_d667ff .button__4f306 {
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-  .sidebar_ded4b5:not(:hover) .container_d667ff [href^="/channels/"]{
-    display: none;
-  }
-  .sidebar_ded4b5:not(:hover) .container_d667ff .ping__47992{
-    scale: 1.3;
-    margin-top: 2px;
-    margin-left: 13px;
-  }
-  .sidebar_ded4b5:not(:hover) .channelInfo_b7ab2e, .sidebar_ded4b5:not(:hover) .children_a486f8{
-    display: none;
-  }
-  .sidebar_ded4b5 .iconContainer__3f9b0{
-    transition: 0.3s ease-in-out;
-    margin-right: -2px;
-  }
-  .sidebar_ded4b5:hover .iconContainer__3f9b0{
-    margin-right: 5px;
-  }
-  .sidebar_ded4b5:hover .scroller_f0f183{
-    margin-top: 0px;
-  }
-  .sidebar_ded4b5:hover .animatedContainer__341f6 {
-    opacity: 1!important;
-  }
-   .sidebar_ded4b5:hover .containerDefault__23a29 {
-    height: unset!important;
-    opacity: unset!important;
-    margin-top: unset;
-  }
-  .sidebar_ded4b5:hover .container__4f639{
-    height: unset;
-    opacity: 1;
-    margin-top: 0;
-  }
-  .sidebar_ded4b5:hover .voiceUser__0470a {
-    margin-left: 0;
-  }
-  .sidebar_ded4b5:hover .containerDefault__3187b:has(.statusDiv_a4cf67) .linkBottom_bac113{
-    opacity: 1;
-    margin-top: unset;
-  }
-  .sidebar_ded4b5:hover .activityPanel__22355 .actions__9256d{
-    opacity: 1;
-  }
-  .sidebar_ded4b5:hover .activityPanel__22355 .gameIcon__90c32,
-  .sidebar_ded4b5:hover .container_ca50b9 .avatar_f8541f{
-    scale: unset;
-    margin-left: unset;
-  }
-  .sidebar_ded4b5:hover{
-    width: 250px!important;
-  }
+.sidebar_e031be {
+  transition: 0.3s ease-in-out;
+  width: 55px;
+}
+.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9){
+  width: 65px;
+}
+.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9) .privateChannelsHeaderContainer_b22dc9{
+  opacity: 0;
+  margin-top: -40px;
+}
+.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9):not(:hover) .favoriteIcon__03348{
+  display: none;
+}
+.sidebar_e031be .activityPanel_b73e7a .actions_d57dc4{
+  opacity: 0;
+}
+.sidebar_e031be .activityPanel_b73e7a .gameIcon_fc710a,
+.sidebar_e031be .container_debb33 .avatar_f8541f{
+  scale: 1.3;
+  margin-left: 3px;
+}
+.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9) .activityPanel_b73e7a .gameIcon_fc710a,
+.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9) .container_debb33 .avatar_f8541f{
+  scale: 1.3;
+  margin-left: 8px;
+}
+.sidebar_e031be *{
+  transition: ease-in-out 0.3s;
+}
+.sidebar_e031be .scroller__1f498{
+  transition: 0.3s ease-in-out;
+  margin-top: -100px;
+}
+.sidebar_e031be .containerDefault_e3b32b {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  margin-top: -40px;
+}
+.sidebar_e031be .container_bc43c1{
+  transition: 0.3s ease-in-out;
+  height: 0;
+  opacity: 0;
+  margin-top: -25px;
+}
+.sidebar_e031be .animatedContainer__0e828 {
+  transition: 0.3s ease-in-out;
+  opacity: 0!important;
+}
+.sidebar_e031be:not(:hover) .headerContent__6fcc7 {
+  margin-left: 5px
+}
+.sidebar_e031be:not(:hover) .header__77c95 .headerChildren_e6a96f{
+  display: none;
+} 
+.sidebar_e031be:not(:hover) .dots_a97068 {
+  display: none;
+}
+.sidebar_e031be:not(:hover) .containerDefault_ae2ea4 .iconContainer__6a580 {
+  margin-left: 0px
+}
+.sidebar_e031be:not(:hover) .containerDefault_ae2ea4 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sidebar_e031be:not(:hover) .header__77c95{
+  background-color: var(--background-secondary);
+  border-bottom: 1px solid var(--background-tertiary);
+}
+.sidebar_e031be:not(:hover) .name__4eb92, .sidebar_e031be:not(:hover) .nameTag__77ab2 {
+  opacity: 0;
+}
+.sidebar_e031be .voiceUser__629a5 {
+  margin-left: -30px;
+}
+.sidebar_e031be .containerDefault_ae2ea4:has(.statusDiv__1f955) .linkBottom__942a1{
+  opacity: 0;
+  margin-top: -15px;
+}
+.sidebar_e031be:not(:hover) .container_e1958d .actionButtons__85e3c, .sidebar_e031be:not(:hover) .container_e1958d .button_ae40a4 {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.sidebar_e031be:not(:hover) .container_e1958d [href^="/channels/"]{
+  display: none;
+}
+.sidebar_e031be:not(:hover) .container_e1958d .ping__838d2{
+  scale: 1.3;
+  margin-top: 2px;
+  margin-left: 13px;
+}
+.sidebar_e031be:not(:hover) .channelInfo_b0882c, .sidebar_e031be:not(:hover) .children__563f2{
+  display: none;
+}
+.sidebar_e031be .iconContainer__6a580{
+  transition: 0.3s ease-in-out;
+  margin-right: -2px;
+}
+.sidebar_e031be:hover .iconContainer__6a580{
+  margin-right: 5px;
+}
+.sidebar_e031be:hover .scroller__1f498{
+  margin-top: 0px;
+}
+.sidebar_e031be:hover .animatedContainer__0e828 {
+  opacity: 1!important;
+}
+ .sidebar_e031be:hover .containerDefault_e3b32b {
+  height: unset!important;
+  opacity: unset!important;
+  margin-top: unset;
+}
+.sidebar_e031be:hover .container_bc43c1{
+  height: unset;
+  opacity: 1;
+  margin-top: 0;
+}
+.sidebar_e031be:hover .voiceUser__629a5 {
+  margin-left: 0;
+}
+.sidebar_e031be:hover .containerDefault_ae2ea4:has(.statusDiv__1f955) .linkBottom__942a1{
+  opacity: 1;
+  margin-top: unset;
+}
+.sidebar_e031be:hover .activityPanel_b73e7a .actions_d57dc4{
+  opacity: 1;
+}
+.sidebar_e031be:hover .activityPanel_b73e7a .gameIcon_fc710a,
+.sidebar_e031be:hover .container_debb33 .avatar_f8541f{
+  scale: unset;
+  margin-left: unset;
+}
+.sidebar_e031be:hover{
+  width: 250px!important;
+}
 
-/* Settings Icon Hotfix!!!*/
-.sidebar_ded4b5:not(:hover) .container_ca50b9 .flex_f5fbb7 {display: none}
+
+/*Settings Icon Hotfix!!*/
+.sidebar_e031be:not(:hover) .container_debb33 .flex_f18b02 {display: none}
 ```
 
 </details>
@@ -176,5 +177,7 @@ To install this snippet, simply copy the line bellow into your custom css file:
 
 - Fixed an issue where the user area buttons would appear over the avatar by removing the buttons until sidebar is hovered.
 
+## 1.1.2 Class Fix
+- Updated the classes to match Discord's new ones.
 
 </details>
