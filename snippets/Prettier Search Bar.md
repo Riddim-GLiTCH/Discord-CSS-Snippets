@@ -5,35 +5,35 @@ Some improvements to the search bar to make it fit in more with the other icons 
 Copy the css below into your theme file
 ```css
 /* Prettier Search bar */
-.iconContainer__8fa9c, .icon_f50f05 { /* Make the Search icon match the styling of the other icons.*/
-  width: 21px;
-  height: 21px;
-  color: var(--interactive-normal);
-  transition: ease-in-out .3s;
-}
-
-.searchBar_e0c60b { /*Fully Hide the search bar*/
-  width: 21px;
-  height: 24px;
-  padding: 0;
-  background: none;
-  transition: ease-in-out 0.3s!important;
-}
-
-.searchBar_e0c60b:hover .iconContainer__8fa9c,
-.searchBar_e0c60b:hover .icon_f50f05,
-.focused_ddee54 .icon_f50f05,
-.focused_ddee54 .iconContainer__8fa9c { /*Hide Search Icon on hover*/
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-.searchBar_e0c60b:hover,
-.focused_ddee54 .searchBar_e0c60b, .open_d3ab4e .searchBar_e0c60b  { /*Reveal Search Bar on Hover*/
-  width: 175px;
-  background: var(--background-tertiary);
-  border: 1px solid var(--button-outline-primary-border-hover);
-}
+.iconContainer__9f124, .icon__5c8c7 { /* Make the Search icon match the styling of the other icons.*/
+    width: 21px;
+    height: 21px;
+    color: var(--interactive-normal);
+    transition: ease-in-out .3s;
+  }
+  
+  .searchBar__5a20a { /*Fully Hide the search bar*/
+    width: 21px;
+    height: 24px;
+    padding: 0;
+    background: none;
+    transition: ease-in-out 0.3s!important;
+  }
+  
+  .searchBar__5a20a:hover .iconContainer__9f124,
+  .searchBar__5a20a:hover .icon__5c8c7,
+  .focused__037a4 .icon__5c8c7,
+  .focused__037a4 .iconContainer__9f124 { /*Hide Search Icon on hover*/
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .searchBar__5a20a:hover,
+  .focused__037a4 .searchBar__5a20a, .open_d3ab4e .searchBar__5a20a  { /*Reveal Search Bar on Hover*/
+    width: 175px;
+    background: var(--background-tertiary);
+    border: 1px solid var(--button-outline-primary-border-hover);
+  }
 ```
 
 ## Preview
@@ -48,5 +48,9 @@ Copy the css below into your theme file
 ## 1.0.0
 
 - Initial release
+
+## 1.0.1 Class Fix
+
+- Updated the classes to match Discord's new ones.
 
 </details>
