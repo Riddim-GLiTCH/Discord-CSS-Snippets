@@ -5,22 +5,23 @@ Minimizes the members list to just the members' avatars until you hover over the
 To install this snippet, simply add the following code to your CSS file.
 ```css
 /*Small Member list*/
-.container_b2ce9c {
+.container_f79ab4 {
   transition: 0.3s ease-in-out;
   margin-right: -180px;
 }
-.container_b2ce9c .membersGroup__85843 {
+.container_f79ab4 .membersGroup_cad095 {
   transition: 0.3s ease-in-out;
   height: 0px!important;
   margin-top: -25px;
 }
-.container_b2ce9c:hover .membersGroup__85843 {
+.container_f79ab4:hover .membersGroup_cad095 {
   height: unset!important;
   margin-top: unset!important;
 }
-.container_b2ce9c:hover{
+.container_f79ab4:hover{
   margin-right: unset!important;
 }
+
 ```
 
 ## Preview
