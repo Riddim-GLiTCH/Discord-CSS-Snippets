@@ -37,4 +37,9 @@ To install this snippet, simply add the following code to your CSS file.
 
 - Initial release
 
+
+## 1.0.1 Class Fix
+
+- Updated the classes to match Discord's new ones.
+
 </details>
