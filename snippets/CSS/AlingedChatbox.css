@@ -1,0 +1,19 @@
+.form_d8a4a1 {padding: 0;}
+.form_d8a4a1 > div:first-of-type {
+  margin: 1.1rem 0 0 0;
+  border-radius: 0;
+}
+.scrollableContainer_ff917f {border-radius: 0}
+.base__06abc {
+  top: 0;
+  bottom: unset;
+}
+.scrollableContainer_ff917f {min-height: 52px}
+.typing__6fd1d {
+  margin-top: -5px!important;
+  margin-left: -16px;
+  width: fit-content;
+  padding-right: 5px;
+  border-top-right-radius: 5px;
+  background: var(--background-secondary);
+}
