@@ -35,7 +35,7 @@ Optionally add this extra snippet to unhide masked links:
 <summary>CSS</summary>
 
 ```css
-.anchor_c8ddc0[title$=")"]:after {
+[class^=anchor][title$=")"]:after {
   font-size: 0.7rem;
   content: " (" attr(href) ")";
   filter: grayscale(0.5);
