@@ -10,146 +10,146 @@ To install this snippet, simply copy the line bellow into your custom css file:
 
 ```css
 /*Small channel list*/
-.sidebar_e031be {
+.sidebar_a4d4d9 {
   transition: 0.3s ease-in-out;
   width: 55px;
 }
-.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9){
+.sidebar_a4d4d9:has(.privateChannelsHeaderContainer_c47fa9){
   width: 65px;
 }
-.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9) .privateChannelsHeaderContainer_b22dc9{
+.sidebar_a4d4d9:has(.privateChannelsHeaderContainer_c47fa9) .privateChannelsHeaderContainer_c47fa9{
   opacity: 0;
   margin-top: -40px;
 }
-.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9):not(:hover) .favoriteIcon__03348{
+.sidebar_a4d4d9:has(.privateChannelsHeaderContainer_c47fa9):not(:hover) .favoriteIcon_c91bad{
   display: none;
 }
-.sidebar_e031be .activityPanel_b73e7a .actions_d57dc4{
+.sidebar_a4d4d9 .activityPanel_a4d4d9 .actions_bf1a22{
   opacity: 0;
 }
-.sidebar_e031be .activityPanel_b73e7a .gameIcon_fc710a,
-.sidebar_e031be .container_debb33 .avatar_f8541f{
+.sidebar_a4d4d9 .activityPanel_a4d4d9 .gameIcon_f394e5,
+.sidebar_a4d4d9 .container_b2ca13 .avatar_b2ca13{
   scale: 1.3;
   margin-left: 3px;
 }
-.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9) .activityPanel_b73e7a .gameIcon_fc710a,
-.sidebar_e031be:has(.privateChannelsHeaderContainer_b22dc9) .container_debb33 .avatar_f8541f{
+.sidebar_a4d4d9:has(.privateChannelsHeaderContainer_c47fa9) .activityPanel_a4d4d9 .gameIcon_f394e5,
+.sidebar_a4d4d9:has(.privateChannelsHeaderContainer_c47fa9) .container_b2ca13 .avatar_b2ca13{
   scale: 1.3;
   margin-left: 8px;
 }
-.sidebar_e031be *{
+.sidebar_a4d4d9 *{
   transition: ease-in-out 0.3s;
 }
-.sidebar_e031be .scroller__1f498{
+.sidebar_a4d4d9 .scroller_c43953{
   transition: 0.3s ease-in-out;
   margin-top: -100px;
 }
-.sidebar_e031be .containerDefault_e3b32b {
+.sidebar_a4d4d9 .containerDefault_a08117 {
   transition: 0.3s ease-in-out;
   opacity: 0;
   margin-top: -40px;
 }
-.sidebar_e031be .container_bc43c1{
+.sidebar_a4d4d9 .container_c75f85{
   transition: 0.3s ease-in-out;
   height: 0;
   opacity: 0;
   margin-top: -25px;
 }
-.sidebar_e031be .animatedContainer__0e828 {
+.sidebar_a4d4d9 .animatedContainer_fd6364 {
   transition: 0.3s ease-in-out;
   opacity: 0!important;
 }
-.sidebar_e031be:not(:hover) .headerContent__6fcc7 {
+.sidebar_a4d4d9:not(:hover) .headerContent_fd6364 {
   margin-left: 5px
 }
-.sidebar_e031be:not(:hover) .header__77c95 .headerChildren_e6a96f{
+.sidebar_a4d4d9:not(:hover) .header_fd6364 .headerChildren_fd6364{
   display: none;
 } 
-.sidebar_e031be:not(:hover) .dots_a97068 {
+.sidebar_a4d4d9:not(:hover) .dots_ce0450 {
   display: none;
 }
-.sidebar_e031be:not(:hover) .containerDefault_ae2ea4 .iconContainer__6a580 {
+.sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 .iconContainer_d8bfb3 {
   margin-left: 0px
 }
-.sidebar_e031be:not(:hover) .containerDefault_ae2ea4 {
+.sidebar_a4d4d9:not(:hover) .containerDefault_f6f816 {
   margin-left: 5px;
   margin-right: 5px;
 }
-.sidebar_e031be:not(:hover) .header__77c95{
+.sidebar_a4d4d9:not(:hover) .header_fd6364{
   background-color: var(--background-secondary);
   border-bottom: 1px solid var(--background-tertiary);
 }
-.sidebar_e031be:not(:hover) .name__4eb92, .sidebar_e031be:not(:hover) .nameTag__77ab2 {
+.sidebar_a4d4d9:not(:hover) .name_d8bfb3, .sidebar_a4d4d9:not(:hover) .nameTag_b2ca13 {
   opacity: 0;
 }
-.sidebar_e031be .voiceUser__629a5 {
+.sidebar_a4d4d9 .voiceUser_cdc675 {
   margin-left: -30px;
 }
-.sidebar_e031be .containerDefault_ae2ea4:has(.statusDiv__1f955) .linkBottom__942a1{
+.sidebar_a4d4d9 .containerDefault_f6f816:has(.statusDiv_e66732) .linkBottom_d8bfb3{
   opacity: 0;
   margin-top: -15px;
 }
-.sidebar_e031be:not(:hover) .container_e1958d .actionButtons__85e3c, .sidebar_e031be:not(:hover) .container_e1958d .button_ae40a4 {
+.sidebar_a4d4d9:not(:hover) .container_adcaac .actionButtons_adcaac, .sidebar_a4d4d9:not(:hover) .container_adcaac .button_f67531 {
   width: 0;
   height: 0;
   opacity: 0;
 }
-.sidebar_e031be:not(:hover) .container_e1958d [href^="/channels/"]{
+.sidebar_a4d4d9:not(:hover) .container_adcaac [href^="/channels/"]{
   display: none;
 }
-.sidebar_e031be:not(:hover) .container_e1958d .ping__838d2{
+.sidebar_a4d4d9:not(:hover) .container_adcaac .ping_c0cb95{
   scale: 1.3;
   margin-top: 2px;
   margin-left: 13px;
 }
-.sidebar_e031be:not(:hover) .channelInfo_b0882c, .sidebar_e031be:not(:hover) .children__563f2{
+.sidebar_a4d4d9:not(:hover) .channelInfo_f6f816, .sidebar_a4d4d9:not(:hover) .children_d8bfb3{
   display: none;
 }
-.sidebar_e031be .iconContainer__6a580{
+.sidebar_a4d4d9 .iconContainer_d8bfb3{
   transition: 0.3s ease-in-out;
   margin-right: -2px;
 }
-.sidebar_e031be:hover .iconContainer__6a580{
+.sidebar_a4d4d9:hover .iconContainer_d8bfb3{
   margin-right: 5px;
 }
-.sidebar_e031be:hover .scroller__1f498{
+.sidebar_a4d4d9:hover .scroller_c43953{
   margin-top: 0px;
 }
-.sidebar_e031be:hover .animatedContainer__0e828 {
+.sidebar_a4d4d9:hover .animatedContainer_fd6364 {
   opacity: 1!important;
 }
- .sidebar_e031be:hover .containerDefault_e3b32b {
+ .sidebar_a4d4d9:hover .containerDefault_a08117 {
   height: unset!important;
   opacity: unset!important;
   margin-top: unset;
 }
-.sidebar_e031be:hover .container_bc43c1{
+.sidebar_a4d4d9:hover .container_c75f85{
   height: unset;
   opacity: 1;
   margin-top: 0;
 }
-.sidebar_e031be:hover .voiceUser__629a5 {
+.sidebar_a4d4d9:hover .voiceUser_cdc675 {
   margin-left: 0;
 }
-.sidebar_e031be:hover .containerDefault_ae2ea4:has(.statusDiv__1f955) .linkBottom__942a1{
+.sidebar_a4d4d9:hover .containerDefault_f6f816:has(.statusDiv_e66732) .linkBottom_d8bfb3{
   opacity: 1;
   margin-top: unset;
 }
-.sidebar_e031be:hover .activityPanel_b73e7a .actions_d57dc4{
+.sidebar_a4d4d9:hover .activityPanel_a4d4d9 .actions_bf1a22{
   opacity: 1;
 }
-.sidebar_e031be:hover .activityPanel_b73e7a .gameIcon_fc710a,
-.sidebar_e031be:hover .container_debb33 .avatar_f8541f{
+.sidebar_a4d4d9:hover .activityPanel_a4d4d9 .gameIcon_f394e5,
+.sidebar_a4d4d9:hover .container_b2ca13 .avatar_b2ca13{
   scale: unset;
   margin-left: unset;
 }
-.sidebar_e031be:hover{
+.sidebar_a4d4d9:hover{
   width: 250px!important;
 }
 
 
 /*Settings Icon Hotfix!!*/
-.sidebar_e031be:not(:hover) .container_debb33 .flex_f18b02 {display: none}
+.sidebar_a4d4d9:not(:hover) .container_b2ca13 .flex_bba380 {display: none}
 ```
 
 </details>
