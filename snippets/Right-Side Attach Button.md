@@ -13,7 +13,8 @@ Works with Send Button Enabled.<br>
   - I have an idea on how to fix this, but its probably gonna be hella janky and I don't really feel like testing that theory right now cuz its a very niche scenario and it can easily be dismissed in the rare case it does happen.
 - Hover does not actually make the button glow.
   - I'll either find a workaround to `drop-shadow()` or just scrap the glow effect. Growing the button should already be enough for enhanced responsiveness.
-
+- A gap is left when no attachment perms.
+   - Will fix this later due to me running out of time to work on this snippet lol.
 </details>
 
 
