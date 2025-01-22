@@ -1,0 +1,48 @@
+.spotify-player-container {
+  .spotify-player-media {
+    margin-left: -5px;
+    padding-right: 45px!important;
+    width: 200px!important;
+    overflow: hidden;
+    padding: 5px;
+    clip-path: inset(0);
+  }
+  .spotify-player-title {
+    background-image: url("https://github.com/Riddim-GLiTCH/riddim-glitch.github.io/blob/main/assets/Icons/discord-import/quaver.png?raw=true");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 22px;
+    margin-left: -5px;
+    color: black;
+    filter: drop-shadow(0 0 1px white) invert(1);
+  }
+  .spotify-player-artist {
+    width: 280px;
+    background-image: url('https://github.com/Riddim-GLiTCH/riddim-glitch.github.io/blob/main/assets/Icons/discord-import/artist.png?raw=true');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+    margin-left: -5px;
+    filter: drop-shadow(0 0 1px white) invert(1);
+  } 
+  .spotify-player-album {
+    background-image: url('https://github.com/Riddim-GLiTCH/riddim-glitch.github.io/blob/main/assets/Icons/discord-import/music-album.png?raw=true');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+    margin-left: -5px;
+    filter: drop-shadow(0 0 1px white) invert(1);
+  }
+  .spotify-player-artist, .spotify-player-album {
+    font-size: 0;
+    span {
+      margin-left: -3px;
+      font-size: small;
+      margin-top: 5px;
+      color: #45475a;
+    }
+  }
+}
