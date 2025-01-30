@@ -1,4 +1,4 @@
-.anchor_af404b[title$=")"]:after {
+.anchor_edefb8[title$=")"]:after {
   font-size: 0.7rem;
   content: " (" attr(href) ")";
   filter: grayscale(0.5);

@@ -1,9 +1,9 @@
 /* Right-Side Attach Button */
-.channelTextArea_a7d72e {
-  .emojiButton_bdf0de  {
+.channelTextArea_f75fb0 {
+  .emojiButton__74017  {
     margin-right: 45px
   }
-  .attachWrapper_f298d4 {
+  .attachWrapper__0923f {
     position:fixed;
     transition: all ease 0.15s;
     right: 0;
@@ -15,9 +15,9 @@
       filter: drop-shadow(0 0 2px currentColor);
     }
   }
-  :has(.sendIcon_a06035) { /* ONLY MOVE THE BUTTON BY 50PX IF THE SEND BUTTON IS PRESENT */
+  :has(.sendIcon_aa63ab) { /* ONLY MOVE THE BUTTON BY 50PX IF THE SEND BUTTON IS PRESENT */
      /* There is probably a more optimal way to do this tbh. But this works so its fine. */
-    .attachWrapper_f298d4 {
+    .attachWrapper__0923f {
       position: fixed;
       transition: all ease 0.15s;
       right: 50px;
